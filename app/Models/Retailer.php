@@ -13,7 +13,7 @@ class Retailer extends Authenticatable
     public $incrementing = false;
 
     protected $fillable = [
-        'uuid','name','email','document_id'
+        'uuid','name','email','type_id', 'money'
     ];
 
     protected $hidden = [
